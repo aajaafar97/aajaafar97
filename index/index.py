@@ -5,9 +5,10 @@ app = Flask(__name__)
 
 freezer = Freezer(app)
 
-if __name__ == '__main__':
-    freezer.freeze()
     
 @app.route("/")
 def index():
     return render_template("index.html")
+
+if __name__ == '__main__':
+freezer.freeze()
