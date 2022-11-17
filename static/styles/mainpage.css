@@ -41,6 +41,7 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 * {
   margin: 0;
@@ -49,10 +50,6 @@ ul.posts li {
   box-sizing: border-box;
 }
 
-body {
-  background: #272727;
-  font-family: "Montserrat", sans-serif;
-}
 
 .navMenu {
   position: absolute;
