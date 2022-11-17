@@ -63,3 +63,7 @@ nav {
   p {
     margin:1em;
   }
+nav {
+    text-align:right;
+    padding: 20px;
+}
