@@ -80,3 +80,10 @@ nav {
     clear: both;
     display: table;
   }
+
+  img {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
